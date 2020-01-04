@@ -1,4 +1,4 @@
-![Иллюстрация к проекту](https://github.com/jon/coolproject/raw/master/image/image.png)
+![Иллюстрация к проекту](https://github.com/lecafede/Web_Sites/blob/master/Portfolio%20PSD%20Template/Portfolio_PSD_Template.png)
 
 ![Image alt](https://github.com/{username}/{repository}/raw/{branch}/{path}/image.png)
 
