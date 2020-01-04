@@ -1,0 +1,150 @@
+@import '_var.scss';
+
+.owl-stage {
+    display: flex;
+}
+
+.owl-stage-outer {
+    display: flex;
+}
+
+.header-section {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    width: 100%;
+    right: 0;
+}
+
+.header-content {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 60px;
+}
+
+.header-menu {
+    display: flex;
+    list-style: none;
+    margin-left: 220px;
+
+    a {
+        margin-right: 30px  ;
+        line-height: 58px;
+        font-size: 14px;
+        text-decoration: none;
+        color: white;
+        font-family: $montserrat;
+
+        &:hover {
+            color: #c7b299;
+        } 
+    }
+}
+
+.mobile-icon {
+    display: none;
+}
+
+.header-icon {
+    color: white;
+    line-height: 58px;
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    font-size: 20px;
+
+    a {
+        color: white;
+    }
+
+    .fa-shopping-bag {
+        margin-right: 30px; 
+        &:hover {
+            color: #c7b299;
+        } 
+    }
+
+    .fa-search {
+        &:hover {
+            color: #c7b299;
+        } 
+    }
+}
+
+.header-logo {
+    a {
+        i {
+            display: none;
+        }
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .header-section {
+        position: relative;
+        background: none;
+        background: #191919;
+        overflow-x: hidden;
+        display: flex;
+       
+    }
+
+    .header-content {
+        display: block;
+        margin-left: 20px;
+        width: 100%;
+        padding-top: 20px;
+        margin-bottom: 20px;
+        
+        
+    }
+
+    .header-menu{
+        display: none;
+        margin-left: 0px;
+        margin-top: 20px;
+
+    }
+
+    .active {
+        display: block;
+    }
+
+    .header-icon {
+        display: none;
+    }
+
+   .header-logo {
+       display: flex;
+       justify-content: space-between;
+       a {
+           text-decoration: none;
+           color: white;
+       
+           i {
+                display: block;
+                margin-top: 10px;
+                margin-right: 30px;
+                font-size: 30px;
+           }
+       }
+   }
+
+    .mobile-icon {
+        display: flex;
+        color: white;
+        line-height: 58px;
+        text-decoration: none;
+        color: white;
+        margin-right: 20px;
+        margin-top: 20px;
+        font-size: 20px;    
+        
+        a {
+            color: white;
+            margin: 0 20px
+        }
+    }
+}
