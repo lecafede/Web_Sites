@@ -497,7 +497,7 @@ body{
     font-size: 40px;
     font-weight: 700;
     line-height: 50px;
-    margin-top: 30px;
+    margin-top: 55px;
 }
 
 .popularity__right-subtitle {
@@ -536,16 +536,44 @@ body{
     padding: 20px;
 }
 
-
 .popularity__box-text {
     border: 1px solid #c5dab5;
     padding: 30px;
     color: #303030;
     margin-right: 70px;
+}
+
+
+.popularity__box-link {
+  
+    padding: 22px 85px 22px 27px;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background-color: #7eb252;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
     
 
-    margin-top: 10px; // delete
+    position: absolute;
+}
+
+.popularity__box-link:after  {
+    content: '';
+    background-image: url(../images/arrow-right.png);
+    width: 31px;
+    height: 10px;
+    position: absolute;
+    right: 40px;
+    top: 30px;
+
 
 }
+
+
+// Добавили комментарий для теста
 
 
