@@ -1,0 +1,86 @@
+@import '_var.scss';
+
+.team-section {
+    margin-top: 150px;
+}
+
+.team-text {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.team-title {
+    font-size: 61px;
+    text-transform: uppercase;
+    color: $darkorange;
+    border-bottom: 2px solid currentColor;
+    display: inline-block;
+    line-height: 100px;
+    font-family: $times;
+}
+
+.team-subtitle {
+    margin: 75px auto;
+    width: 750px;
+    font-size: 20px;
+}
+
+
+.team-profile {
+    display: flex;
+    justify-content: center;
+}
+
+.team-profile__item {
+    text-align: center;
+}
+
+.personal-photo {
+    height: 285px;
+    width: 225px;
+}
+
+.name-surname {
+    font-size: 25px;
+    margin: 15px;
+    font-family: $helvetica;
+}
+
+.info {
+    margin: 0px 100px;
+    font-family: $helvetica;
+}
+
+@media (max-width: 1024px) {
+
+    .team-section {
+        margin-top: -80px;
+    }
+
+    .team-title {
+        font-size: 25px;
+    }
+
+    .team-profile {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .team-subtitle {
+        margin: 40px auto;
+        width: 75%;
+        font-size: 12px;
+    }
+
+    .team-profile__item {
+        margin-bottom: 50px;
+    }
+
+    .name-surname {
+        font-size: 20px;
+    }
+
+    .info {
+        font-size: 10px;
+    }
+}

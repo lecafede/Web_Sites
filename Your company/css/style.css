@@ -1,0 +1,765 @@
+@import url(http://allfont.ru/allfont.css?fonts=baskerville-light);
+@import url("https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap");
+@import url(http://allfont.ru/allfont.css?fonts=baskerville-light);
+@import url("https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap");
+@import url(http://allfont.ru/allfont.css?fonts=baskerville-light);
+@import url("https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap");
+@import url(http://allfont.ru/allfont.css?fonts=baskerville-light);
+@import url("https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap");
+@import url(http://allfont.ru/allfont.css?fonts=baskerville-light);
+@import url("https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap");
+@import url(http://allfont.ru/allfont.css?fonts=baskerville-light);
+@import url("https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap");
+@import url(http://allfont.ru/allfont.css?fonts=baskerville-light);
+@import url("https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap");
+@import url(http://allfont.ru/allfont.css?fonts=baskerville-light);
+@import url("https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap");
+@import url(http://allfont.ru/allfont.css?fonts=baskerville-light);
+@import url("https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap");
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  src: url("MyriadPro-Regular.eot");
+  src: url("MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("MyriadPro-Regular.woff") format("woff"), url("MyriadPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Athelas Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Athelas Regular"), url("../fonts/Athelas-Regular.woff") format("woff"); }
+@font-face {
+  font-family: 'Vani-Bold';
+  src: local("Vani-Bold"), url("https://nomail.com.ua/files/woff/756871f756ee24c7029aafdad4cbdc62.woff") format("woff"); }
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  src: url("MyriadPro-Regular.eot");
+  src: url("MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("MyriadPro-Regular.woff") format("woff"), url("MyriadPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Athelas Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Athelas Regular"), url("../fonts/Athelas-Regular.woff") format("woff"); }
+@font-face {
+  font-family: 'Vani-Bold';
+  src: local("Vani-Bold"), url("https://nomail.com.ua/files/woff/756871f756ee24c7029aafdad4cbdc62.woff") format("woff"); }
+* {
+  padding: 0;
+  margin: 0; }
+
+.header {
+  width: 100%;
+  height: 120px; }
+  .header .header-logo {
+    font-family: "Myriad Pro Regular", "Times New Roman", sans-serif;
+    font-size: 25px;
+    color: #d7794a;
+    text-transform: uppercase;
+    padding: 50px 0 55px 60px; }
+
+@media (max-width: 1024px) {
+  .header {
+    display: none; } }
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  src: url("MyriadPro-Regular.eot");
+  src: url("MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("MyriadPro-Regular.woff") format("woff"), url("MyriadPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Athelas Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Athelas Regular"), url("../fonts/Athelas-Regular.woff") format("woff"); }
+@font-face {
+  font-family: 'Vani-Bold';
+  src: local("Vani-Bold"), url("https://nomail.com.ua/files/woff/756871f756ee24c7029aafdad4cbdc62.woff") format("woff"); }
+.main-section {
+  background: url(../images/city.jpg) no-repeat center top/cover;
+  height: 775px; }
+
+.menu-container {
+  width: 100%;
+  background: rgba(137, 141, 142, 0.5); }
+
+.menu {
+  width: 95%;
+  margin: 0 auto;
+  padding: 0; }
+
+.menu__item {
+  list-style: none;
+  display: inline-block;
+  padding: 20px; }
+  .menu__item a {
+    font-family: "Myriad Pro Regular", "Times New Roman", sans-serif;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase; }
+
+.menu__item:hover {
+  background: #7d9097; }
+  .menu__item:hover a {
+    color: black; }
+
+.adaptive-burger {
+  width: 100%;
+  padding: 10px 20px;
+  text-align: right;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 30px;
+  display: block; }
+
+.adaptive-burger {
+  display: none; }
+  .adaptive-burger img {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    height: 25px;
+    width: 25px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+
+.adaptive-logo {
+  position: absolute;
+  font-family: "Myriad Pro Regular", "Times New Roman", sans-serif;
+  font-size: 20px;
+  color: #d7794a;
+  text-transform: uppercase;
+  display: none;
+  margin-top: 30px; }
+
+.main-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+  top: 200px;
+  right: 100px; }
+  .main-text .welcome {
+    font-family: "Baskerville Light", "Times New Roman";
+    font-size: 80px;
+    text-transform: uppercase;
+    color: white; }
+  .main-text .company {
+    color: #d7794a;
+    font-size: 48px;
+    text-transform: uppercase; }
+
+@media (max-width: 1024px) {
+  .main-text {
+    display: none; }
+
+  .main-section {
+    height: 100px; }
+
+  .inactive {
+    display: block;
+    height: 456px; }
+
+  .adaptive-burger {
+    display: block;
+    height: 100px;
+    background: white;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+
+  .menu {
+    width: 100%;
+    display: none; }
+    .menu .menu__item {
+      display: block;
+      text-align: center; }
+
+  .active {
+    display: block; }
+
+  .adaptive-logo {
+    display: block; } }
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  src: url("MyriadPro-Regular.eot");
+  src: url("MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("MyriadPro-Regular.woff") format("woff"), url("MyriadPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Athelas Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Athelas Regular"), url("../fonts/Athelas-Regular.woff") format("woff"); }
+@font-face {
+  font-family: 'Vani-Bold';
+  src: local("Vani-Bold"), url("https://nomail.com.ua/files/woff/756871f756ee24c7029aafdad4cbdc62.woff") format("woff"); }
+.team-section {
+  margin-top: 150px; }
+
+.team-text {
+  text-align: center;
+  margin-top: 100px; }
+
+.team-title {
+  font-size: 61px;
+  text-transform: uppercase;
+  color: #995437;
+  border-bottom: 2px solid currentColor;
+  display: inline-block;
+  line-height: 100px;
+  font-family: "Times New Roman", "sans-serif"; }
+
+.team-subtitle {
+  margin: 75px auto;
+  width: 750px;
+  font-size: 20px; }
+
+.team-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.team-profile__item {
+  text-align: center; }
+
+.personal-photo {
+  height: 285px;
+  width: 225px; }
+
+.name-surname {
+  font-size: 25px;
+  margin: 15px;
+  font-family: "Helvetica", "Times New Roman", "sans-serif"; }
+
+.info {
+  margin: 0px 100px;
+  font-family: "Helvetica", "Times New Roman", "sans-serif"; }
+
+@media (max-width: 1024px) {
+  .team-section {
+    margin-top: -80px; }
+
+  .team-title {
+    font-size: 25px; }
+
+  .team-profile {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+
+  .team-subtitle {
+    margin: 40px auto;
+    width: 75%;
+    font-size: 12px; }
+
+  .team-profile__item {
+    margin-bottom: 50px; }
+
+  .name-surname {
+    font-size: 20px; }
+
+  .info {
+    font-size: 10px; } }
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  src: url("MyriadPro-Regular.eot");
+  src: url("MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("MyriadPro-Regular.woff") format("woff"), url("MyriadPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Athelas Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Athelas Regular"), url("../fonts/Athelas-Regular.woff") format("woff"); }
+@font-face {
+  font-family: 'Vani-Bold';
+  src: local("Vani-Bold"), url("https://nomail.com.ua/files/woff/756871f756ee24c7029aafdad4cbdc62.woff") format("woff"); }
+.statistic-section {
+  height: 250px;
+  background: #1f3138;
+  margin-top: 200px; }
+
+.statistic-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  text-align: center; }
+
+.statistic__item {
+  margin: 0 60px; }
+
+.statistic-number {
+  font-size: 80px;
+  font-weight: bold;
+  color: #995437;
+  font-family: "Vani-Bold", "Times New Roman", "sans-serif"; }
+
+.statistic-text {
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  margin-top: -10px;
+  font-family: "Myriad Pro Regular", "Times New Roman", sans-serif; }
+
+@media (max-width: 1024px) {
+  .statistic-section {
+    height: 650px;
+    margin-top: 50px; }
+
+  .statistic-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+
+  .statistic-number {
+    font-size: 70px; }
+
+  .statistic-text {
+    font-size: 20px; }
+
+  .statistic__item {
+    margin-bottom: 20px; }
+
+  .statistic-text {
+    font-family: "Myriad Pro Regular", "Times New Roman", sans-serif; } }
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  src: url("MyriadPro-Regular.eot");
+  src: url("MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("MyriadPro-Regular.woff") format("woff"), url("MyriadPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Athelas Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Athelas Regular"), url("../fonts/Athelas-Regular.woff") format("woff"); }
+@font-face {
+  font-family: 'Vani-Bold';
+  src: local("Vani-Bold"), url("https://nomail.com.ua/files/woff/756871f756ee24c7029aafdad4cbdc62.woff") format("woff"); }
+.about-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 200px;
+  margin-bottom: 200px; }
+
+.about-photo img {
+  height: 500px;
+  width: 700px;
+  margin-right: 30px; }
+
+.about-info {
+  height: 400px;
+  width: 650px;
+  background: #f9f9fb;
+  margin-top: 50px;
+  border: 1px solid #b2b8ba; }
+  .about-info h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Athelas Regular", "sans-serif";
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 400; }
+  .about-info .about-info__text {
+    font-family: "Quattrocento Sans", "sans-serif";
+    font-size: 15px;
+    text-align: center;
+    margin-top: 30px; }
+
+.about-info__advantages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 40px; }
+
+.advantage-photo {
+  text-align: center; }
+  .advantage-photo img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%; }
+
+.advantage-text {
+  text-align: center;
+  margin-top: 20px;
+  border: 1px solid black;
+  padding: 15px;
+  text-transform: uppercase; }
+
+@media (max-width: 1200px) {
+  .about-section {
+    margin-top: 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 150px; }
+    .about-section .about-info {
+      width: 100%;
+      height: 100%;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box; }
+    .about-section .about-info__text {
+      width: 90%;
+      margin: 20px auto; }
+
+  .about-photo {
+    display: none; }
+
+  .about-info__advantages {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+
+  .advantages__item {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    .advantages__item .advantage-text {
+      width: 50%;
+      margin: 20px auto; } }
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  src: url("MyriadPro-Regular.eot");
+  src: url("MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("MyriadPro-Regular.woff") format("woff"), url("MyriadPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Athelas Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Athelas Regular"), url("../fonts/Athelas-Regular.woff") format("woff"); }
+@font-face {
+  font-family: 'Vani-Bold';
+  src: local("Vani-Bold"), url("https://nomail.com.ua/files/woff/756871f756ee24c7029aafdad4cbdc62.woff") format("woff"); }
+.contact-section {
+  width: 100%;
+  height: 1100px;
+  background: #2c4048; }
+
+.contact-title {
+  font-family: "Athelas Regular", "sans-serif";
+  text-transform: uppercase;
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  padding-top: 150px; }
+
+.contact-text {
+  margin-top: 20px;
+  line-height: 30px;
+  font-family: "Quattrocento Sans", "sans-serif";
+  font-size: 20px;
+  color: #c0c0c0;
+  text-align: center; }
+
+.form {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.contact-form {
+  width: auto; }
+  .contact-form .email {
+    width: 94%; }
+  .contact-form .message {
+    width: 94%;
+    padding-bottom: 100px; }
+  .contact-form datalist {
+    background: green; }
+  .contact-form input:focus::-webkit-input-placeholder {
+    color: transparent; }
+  .contact-form input::-webkit-input-placeholder {
+    font-size: 20px;
+    font-family: "Quattrocento Sans", "sans-serif"; }
+  .contact-form input:-ms-input-placeholder {
+    font-size: 20px;
+    font-family: "Quattrocento Sans", "sans-serif"; }
+  .contact-form input::-ms-input-placeholder {
+    font-size: 20px;
+    font-family: "Quattrocento Sans", "sans-serif"; }
+  .contact-form input::placeholder {
+    font-size: 20px;
+    font-family: "Quattrocento Sans", "sans-serif"; }
+  .contact-form input {
+    font-size: 20px;
+    font-weight: 600;
+    width: 350px;
+    padding: 10px;
+    background: #2c4048;
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: #b5b6b7;
+    color: white;
+    margin: 30px 15px; }
+  .contact-form button {
+    background: #89553b;
+    color: white;
+    padding: 15px 40px;
+    border: 1px solid #623621;
+    font-family: "Myriad Pro Regular", "Times New Roman", sans-serif;
+    font-size: 20px;
+    float: right;
+    margin-top: 20px; }
+  .contact-form button:hover {
+    background: white;
+    color: #89553b;
+    cursor: pointer; }
+
+@media (max-width: 1024px) {
+  .contact-section {
+    height: 1200px; }
+
+  .contact-form {
+    text-align: center; }
+    .contact-form .email {
+      width: auto; }
+    .contact-form .message {
+      width: auto;
+      padding-bottom: 100px; }
+    .contact-form input {
+      width: 250px; }
+    .contact-form button {
+      float: none;
+      left: 50%; } }
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  src: url("MyriadPro-Regular.eot");
+  src: url("MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("MyriadPro-Regular.woff") format("woff"), url("MyriadPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Athelas Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Athelas Regular"), url("../fonts/Athelas-Regular.woff") format("woff"); }
+@font-face {
+  font-family: 'Vani-Bold';
+  src: local("Vani-Bold"), url("https://nomail.com.ua/files/woff/756871f756ee24c7029aafdad4cbdc62.woff") format("woff"); }
+.gallery-section {
+  height: 1000px; }
+
+.gallery-title {
+  font-size: 45px;
+  font-family: "Athelas Regular", "sans-serif";
+  text-transform: uppercase;
+  color: #995437;
+  text-align: center;
+  margin-top: 100px; }
+
+.gallery-text {
+  text-align: center;
+  margin: 0 auto;
+  width: 550px;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.gallery-slider {
+  width: 1200px;
+  margin: 0 auto; }
+
+.your-class img {
+  height: 700px;
+  width: 250px; }
+
+.button-slider {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  font-size: 20px;
+  background: white;
+  border: 1px solid #995437;
+  color: #995437;
+  text-decoration: none;
+  outline: none; }
+
+.button-slider:hover {
+  background: #995437;
+  color: white; }
+
+.slider-buttons {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+@media (max-width: 1200px) {
+  .gallery-section {
+    height: 800px; }
+
+  .gallery-slider {
+    width: 600px;
+    margin: 0 auto; }
+
+  .your-class img {
+    height: 450px;
+    width: 250px; } }
+@media (max-width: 600px) {
+  .gallery-slider {
+    width: 250px;
+    height: 500px;
+    margin: 0 auto; }
+
+  .your-class img {
+    height: 350px;
+    width: 200px; }
+
+  .gallery-text {
+    width: 250px; } }
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  src: url("MyriadPro-Regular.eot");
+  src: url("MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("MyriadPro-Regular.woff") format("woff"), url("MyriadPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Athelas Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Athelas Regular"), url("../fonts/Athelas-Regular.woff") format("woff"); }
+@font-face {
+  font-family: 'Vani-Bold';
+  src: local("Vani-Bold"), url("https://nomail.com.ua/files/woff/756871f756ee24c7029aafdad4cbdc62.woff") format("woff"); }
+.footer-section {
+  height: 250px;
+  background: #1b2c33;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+  .footer-section * {
+    font-family: "Athelas Regular", "sans-serif"; }
+  .footer-section p, .footer-section h3 {
+    color: white; }
+  .footer-section p {
+    line-height: 35px; }
+  .footer-section img {
+    height: 20px;
+    width: 20px;
+    -webkit-filter: invert(1);
+            filter: invert(1);
+    margin-top: 10px;
+    margin-right: 20px; }
+  .footer-section h3 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    text-transform: uppercase; }
+
+.footer-location {
+  margin-top: 20px; }
+
+.loc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .loc a {
+    text-decoration: none;
+    color: white; }
+  .loc p {
+    line-height: 20px;
+    font-size: 15px;
+    width: 110px;
+    display: block;
+    word-wrap: break-word; }
+
+.basement-section {
+  background: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .basement-section .basement-text {
+    color: white;
+    margin-left: 80px; }
+  .basement-section .social-networks {
+    margin-right: 80px; }
+    .basement-section .social-networks img {
+      height: 30px;
+      width: 30px;
+      border: 1px solid black;
+      -webkit-filter: invert(2);
+              filter: invert(2); }
+    .basement-section .social-networks img:hover {
+      -webkit-filter: 0;
+              filter: 0;
+      background: red;
+      cursor: pointer; }
+
+@media (max-width: 1024px) {
+  .footer-section {
+    height: 900px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .footer-section * {
+      margin: 0 auto; }
+    .footer-section .footer-content, .footer-section .footer-legal {
+      width: 150px; }
+
+  .basement-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 120px; }
+    .basement-section .basement-text {
+      margin-top: 20px;
+      text-align: center;
+      margin-left: 0; }
+    .basement-section .social-networks {
+      margin-bottom: 10px;
+      text-align: center;
+      margin-right: 0; } }
+
+/*# sourceMappingURL=style.css.map */

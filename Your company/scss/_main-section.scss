@@ -1,0 +1,134 @@
+@import '_var.scss';
+
+.main-section {
+    background: url(../images/city.jpg) no-repeat center top / cover;
+    height: 775px;
+}
+
+.menu-container {
+    width: 100%;
+    background: rgba(137, 141, 142, 0.5);
+}
+
+.menu {
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.menu__item {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+
+    a {
+        font-family: $myriad;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+}
+
+.menu__item:hover {
+    background: #7d9097;
+
+    a {
+        color: black;
+    }
+}
+
+.adaptive-burger {
+    width: 100%;
+    padding: 10px 20px;
+    text-align: right;
+    box-sizing: border-box;
+    font-size: 30px;
+    display: block;
+}
+
+.adaptive-burger {
+    display: none;
+
+    img {
+        position: absolute;
+        top: 40px;
+        right: 40px;
+        height: 25px;
+        width: 25px;
+        box-sizing: border-box;
+    }
+}
+
+.adaptive-logo {
+    position: absolute;
+    font-family: $myriad;
+    font-size: 20px;
+    color: $orange;
+    text-transform: uppercase;
+    display: none;
+    margin-top: 30px;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    top: 200px;
+    right: 100px;
+
+    .welcome {
+        font-family: $baskerville;
+        font-size: 80px;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .company {
+        color: $orange;
+        font-size: 48px;
+        text-transform: uppercase;
+
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .main-text {
+        display: none
+    }
+    .main-section {
+      height: 100px;
+    }
+
+    .inactive {
+        display: block;
+        height: 456px
+    }
+
+    .adaptive-burger {
+        display: block;
+        height: 100px;
+        background: white;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+    .menu {
+        width: 100%;
+        display: none;
+
+        .menu__item {
+            display: block;
+            text-align: center;
+        }
+    }
+
+    .active {
+        display: block;
+    }
+
+    .adaptive-logo {
+        display: block;
+    }
+}

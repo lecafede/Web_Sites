@@ -1,0 +1,127 @@
+@import '_var.scss';
+
+
+.footer-section {
+    height: 250px;
+    background: #1b2c33;
+    display: flex;
+    justify-content: space-around;
+    * {
+        font-family: $athelas;
+    }
+    p, h3 {
+        color: white;
+    }
+
+    p {
+        line-height: 35px;
+    }
+
+    img {
+        height: 20px;
+        width: 20px;
+        filter: invert(1);
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+
+    h3 {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+}
+
+.footer-location {
+    margin-top: 20px;
+}
+
+.loc {
+    display: flex;
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    p {
+        line-height: 20px;
+        font-size: 15px;
+        width: 110px;
+        display: block;
+        word-wrap: break-word;
+    }
+}
+
+
+.basement-section {
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+
+    .basement-text {
+        color: white;
+        margin-left: 80px;
+    
+    }
+
+    .social-networks {
+        margin-right: 80px;
+        img {
+            height: 30px;
+            width: 30px;
+            border: 1px solid black;
+            filter: invert(2);
+        }
+        
+        img:hover {
+            filter:(0);
+            background: red;
+            cursor: pointer;
+            
+        }
+       
+    }
+}
+
+
+@media (max-width: 1024px) {
+    
+    .footer-section {
+        height: 900px;
+        
+        flex-direction: column;
+
+        * {
+            margin: 0 auto
+        }
+
+
+        .footer-content, .footer-legal  {
+            width: 150px;
+        }
+    }
+
+
+    .basement-section {
+        flex-direction: column;
+        align-items: center;
+        height: 120px;
+
+        .basement-text {
+            margin-top: 20px;
+            text-align: center;
+            margin-left: 0;
+        }
+
+        .social-networks {
+            margin-bottom: 10px;
+            text-align: center;
+            margin-right: 0;
+        }
+    }
+
+}

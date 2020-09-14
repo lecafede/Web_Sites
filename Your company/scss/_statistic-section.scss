@@ -1,0 +1,62 @@
+@import '_var.scss';
+
+.statistic-section {
+    height: 250px;
+    background: #1f3138;
+    margin-top: 200px;
+}
+
+.statistic-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+.statistic__item {
+    margin: 0 60px;
+}
+
+.statistic-number {
+    font-size: 80px;
+    font-weight: bold;
+    color: $darkorange;
+    font-family: $vanibold;
+}
+
+.statistic-text {
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: -10px;
+    font-family: $myriad;
+}
+
+@media (max-width: 1024px){
+
+    .statistic-section {
+        height: 650px;
+        margin-top: 50px;
+    }
+
+    .statistic-info {
+        flex-direction: column;
+    }
+
+    .statistic-number {
+        font-size: 70px;
+    }
+
+    .statistic-text {
+        font-size: 20px;
+    }
+
+    .statistic__item {
+        margin-bottom: 20px;
+    }
+
+    .statistic-text {
+        font-family: $myriad;
+    }
+}

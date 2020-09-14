@@ -1,0 +1,52 @@
+// |===== Fonts =====|
+
+// Baskerville
+
+@import url(http://allfont.ru/allfont.css?fonts=baskerville-light);
+
+// Myriad Pro (Regular)
+
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    src: url('MyriadPro-Regular.eot');
+    src: url('MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('MyriadPro-Regular.woff') format('woff'),
+    url('MyriadPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+
+// Athelas Regular
+
+@font-face {
+    font-family: 'Athelas Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Athelas Regular'), url('../fonts/Athelas-Regular.woff') format('woff');
+    }
+
+
+// Vani Bold
+
+@font-face { font-family: 'Vani-Bold';  src: local('Vani-Bold'), url('https://nomail.com.ua/files/woff/756871f756ee24c7029aafdad4cbdc62.woff') format('woff'); }
+
+// Quattrocento Sans
+
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap');
+
+
+// |===== Variable =====|
+
+$myriad: 'Myriad Pro Regular', 'Times New Roman', sans-serif;
+$times: 'Times New Roman', 'sans-serif';
+$baskerville: 'Baskerville Light', 'Times New Roman';
+$vanibold: 'Vani-Bold', 'Times New Roman', 'sans-serif';
+$helvetica: 'Helvetica', 'Times New Roman', 'sans-serif';
+$athelas: 'Athelas Regular', 'sans-serif';
+$quattro: 'Quattrocento Sans', 'sans-serif';
+
+// |===== Color =====|
+
+$orange: #d7794a;
+$darkorange: #995437;
