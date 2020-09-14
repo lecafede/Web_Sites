@@ -1,1 +1,2 @@
-Хостинг: <script src="js/script.js"></script
+Хостинг: https://raw.githack.com/lecafede/Web_Sites/master/Elinguage/index.html
+
